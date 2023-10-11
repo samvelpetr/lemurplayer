@@ -463,6 +463,9 @@ footer {
     .underfooter{
         padding: 15px 0;
     }
+    .blur3{
+        transform: translate(0px,-300px);
+    }
 }
 
 @media screen and (max-width:380px) {
