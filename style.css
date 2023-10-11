@@ -466,6 +466,12 @@ footer {
     .blur3{
         transform: translate(0px,-300px);
     }
+    footer{
+        height: 550px;
+    }
+    .footer__img2 {
+        margin-top: 121px;
+    }
 }
 
 @media screen and (max-width:380px) {
