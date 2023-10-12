@@ -25,7 +25,30 @@ header {
     align-items: flex-start;
     justify-content: space-between;
 }
-
+.sticky__cookie{
+    width: 100%;
+    padding: 15px 0;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    z-index: 10000;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #4C49ED 1.72%, #A439C1 98.45%);
+}
+.sticky__cookie div{
+    width: 80%;
+    text-align: center;
+}
+.sticky__cookie button{
+    outline: none;
+    border: none;
+    background: #251843;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+}
 .header_text1 {
     font-size: 40px;
     color: white;
@@ -107,7 +130,9 @@ header {
     text-transform: capitalize;
     color: white;
 }
-
+.displayNone{
+    display: none !important;
+}
 .section__text span {
     color: #F09;
 }
@@ -364,7 +389,17 @@ footer {
     .header__text {
         text-align: center;
     }
-
+    .sticky__cookie{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .sticky__cookie button{
+        padding: 10px 0;
+    }
+    .sticky__cookie  div{
+        font-size: 14px;
+    }
     .header__download {
         justify-content: center;
         gap: 20px;
@@ -456,9 +491,7 @@ footer {
     body{
         overflow-x: hidden;
     }
-    .lemur1 {
-        right: 5px;
-    }
+    
     .footer__main p{
         font-size: 18px;
         text-align: center;
