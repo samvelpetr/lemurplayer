@@ -476,6 +476,9 @@ footer {
     .footer__img1{
         display: none;
     }
+    header{
+        background-size: auto;
+    }
 }
 
 @media screen and (max-width:380px) {
